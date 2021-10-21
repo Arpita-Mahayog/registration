@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form site</title>
+<style>
+body{
+    background-color:black;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    left: 560px;
+    display: inline-block;
+    
+    }
+div{
+ color:white ;
+ font-size: 20px;
+ text-align: left;
+ border: 2px solid whitesmoke ;
+ border-left-color: yellow;
+ border-right-color: royalblue;
+ border-top-color: yellow;
+ border-bottom-color: royalblue;
+ padding: 25px;
+ padding-right: 30px;
+ padding-bottom: 30px;
+ padding-inline: 68px;
+ width: 350px;
+ display: inline-block;
+vertical-align: top;
+}
+label{
+    width: 380px;
+    display: inline-block;
+    margin-left: 2px;
+
+}
+h1{
+    color: whitesmoke;
+    text-decoration:underline;
+    text-shadow:bisque;
+    font-size: 40px;
+    font-weight:bold;
+}
+pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:normal;
+    font-size: 16px;
+    color:rgb(158, 151, 91);
+}
+.one{
+    color: blanchedalmond;
+
+}
+input[type=submit]{
+    background-color:lightcoral;
+    position: absolute;
+    left: 180px;
+    bottom: 18px;
+}
+</style>
+</head>
+<body>
+    <h1>Register for Free!</h1>
+   
+    <div class="attributes" >
+<form method="post" action="registerr.php">
+    <label><pre class="one">
+Username : <input type="text" name="username"><br><br>
+Password : <input type="password" name="password"><br><br>
+Email    : <input type="email" name="email"><br><br>
+Mobile   : <input type="number" name="mobile"><br><br>
+</pre>
+<pre>
+<input type="checkbox"> send me personalized recommendations
+   and tips</pre>
+
+<input type="submit" value="Submit" >
+    </label>
+
+</form>
+    </div>
+</body>
+</html>
