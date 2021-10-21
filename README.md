@@ -1,2 +1,2 @@
 # registration
-I created this registration form using html, css and php mysql concepts in vs
+I created this simple registration form using html, css and php mysql concepts in vs
